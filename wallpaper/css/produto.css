@@ -1,0 +1,68 @@
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    margin-top: 20px;
+    margin-bottom: 40px; 
+}
+
+.product-card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: orange;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.product-card h3 {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.rating {
+    color: #FFA500; /* Cor para as estrelas */
+    margin: 5px 0;
+}
+
+.price {
+    margin: 10px 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9em;
+}
+
+.discounted-price {
+    color: #e60000;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.banner{
+    width: 95%;
+    margin-left: 3%;
+}

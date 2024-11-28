@@ -1,0 +1,87 @@
+/* Estilização do conteúdo principal */
+:root {
+  --font-logo: 'Kanit', sans-serif;
+  --font-family-primary: 'PT Sans', sans-serif;
+  --primary-color: #000000;
+  --secundary-color: rgb(116, 0, 0);
+  --tertiary-color: rgb(116, 0, 0);
+  --transparent-color: rgb(116, 0, 0);
+  --font-color-prymary: rgb(116, 0, 0);
+  --font-color-secundary: rgb(255, 255, 255);
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.main-container {
+  width: 190%;
+  max-width: 900px;
+  background-color:rgb(116, 0, 0);
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.main-container-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+.main-container-form input[type="text"],
+.main-container-form input[type="email"],
+.main-container-form input[type="password"],
+.main-container-form textarea {
+  width: 100%;
+  padding: 7px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  display: flex;
+  margin:15px;
+  margin-left: 0%;
+}
+
+.main-container-form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.main-container-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  display:flexbox;
+  margin: 15px;
+margin-left: 0px;
+
+
+  
+}
+
+.main-container-form input[type="submit"]:hover {
+  background-color: #555;
+}
+.dudu{
+  width: 90px;
+}
+.button{
+  width: 150px;
+
+}
